@@ -21,3 +21,7 @@ doc/
 .project
 .DS_Store
 .idea
+.sass-cache
+
+# Ocultamos el fichero de variables de entorno
+local_env.yml

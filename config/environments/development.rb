@@ -34,4 +34,10 @@ DealerErgoGo::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  # Autenticación HTTP Básica para no dejar al descubierto los datos de la aplicación
+  config.middleware.insert_after(::Rack::Lock, "::Rack::Auth::Basic", "Who R' U?") do |u, p|
+    u == ENV["USERNAME"] && p == ENV["PASSWORD"]
+  end
+
 end
