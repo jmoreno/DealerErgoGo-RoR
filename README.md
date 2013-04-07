@@ -7,7 +7,7 @@ Esto no es más que un juego sin pretensiones. A ver hasta donde llega.
 De momento, el modelo solo tiene dos entidades: feed e item.      
 Para la extracción de los feeds quiero utilizar el propio _extractor_ de Google Reader ya que siempre devuelve los datos en el mismo formato, independientemente de si la fuente es atom o rss. Un ejemplo de la url sería el siguiente:
 
-[http://www.google.com/reader/api/0/stream/contents/feed/{escaped-url-feed}?n=1000](http://www.google.com/reader/api/0/stream/contents/feed/{escaped-url-feed}?n=1000)
+[http://www.google.com/reader/api/0/stream/contents/feed/{escaped-url-feed}?n=1000](http://www.google.com/reader/api/0/stream/contents/feed/javi.zinkinapps.com/atom.xml?n=1000)
 
 Si sustituimos {escaped-url-feed} por la url del feed que queremos descargar, obtendremos un bonito json.
 
