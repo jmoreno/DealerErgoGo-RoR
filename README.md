@@ -11,7 +11,7 @@ Para la extracción de los feeds quiero utilizar el propio _extractor_ de Google
 
 Si sustituimos {escaped-url-feed} por la url del feed que queremos descargar, obtendremos un bonito json.
 
-No es necesario estar autenticado en el servicio de Google Reader así que es una buena aproximación para incluirlo en una aplicación sin complicarnos demasiado la vida. Supongo que también desaparecerá el 1 de Julio pero, con un poco de suerte, publicarán su código fuente un poco antes. </tururu>
+No es necesario estar autenticado en el servicio de Google Reader así que es una buena aproximación para incluirlo en una aplicación sin complicarnos demasiado la vida. Supongo que también desaparecerá el 1 de Julio pero, con un poco de suerte, publicarán su código fuente un poco antes. (ja ja)
 
 Se supone que debería haber un proyecto anexo a este con la integración en iOS. Ahora mismo tengo una aplicación que graba y lee pero que en ocasiones da un error grave al encontrar registros _corruptos_ en la base de datos de Core Data. A ver si lo soluciono y subo el repositorio a GitHub.
 
