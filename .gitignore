@@ -25,3 +25,4 @@ doc/
 
 # Ocultamos el fichero de variables de entorno
 local_env.yml
+heroku.sh

@@ -70,7 +70,7 @@ module DealerErgoGo
 
     # Using framework Helios as a middleware for our app
     config.middleware.use Helios::Application do
-      service :data, model: '/Users/javi/Developer/Proyectos/iOS/DealerErgoGo/DealerErgoGo/DealerErgoGo.xcdatamodeld/DealerErgoGo.xcdatamodel'
+      service :data, model: './config/DealerErgoGo.xcdatamodel'
       service :push_notification
       service :in_app_purchase
       service :passbook
